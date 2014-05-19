@@ -6,7 +6,9 @@
 ----
 ~~ <div class="contents" id="contents">
 %% 
-%% This TOC sheet can be added just after frontmatter as it is. It can also be inserted anywhere in the  document structure, but then make sure that the <div id="contents"> tag is inserted above first heading to be included in the TOC.
+%% This TOC sheet can be added just after frontmatter as it is. 
+%% It can also be inserted anywhere in the  document structure, 
+%% but then make sure that the <div id="contents"> tag is inserted above first heading to be included in the TOC.
 %% Works with any of Ulysses HTML-styles and preview, but not with Rich Text-styles.
 %% 
 %% if you want heading links without decoration (underlined), uncomment following section:
