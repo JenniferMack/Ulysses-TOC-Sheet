@@ -17,3 +17,9 @@ Works with any of Ulysses HTML-styles and preview, but not with Rich Text-styles
 Copy and Paste the complete text from **_Ulysses-TOC-Sheet.txt_** into an empty Ulysses sheet, and place it after front matter sheet, or as first sheet if so desired.
 
 Feel free to fix and improve :)
+
+### Disclaimer
+
+`<style>` sections (used here for Headnings- and multilevel TOC-numbering) are not strictly allowed in `<body>` section. It seems to work in Safari, Chrome and Firefox, but not in IE. So if heading numbers and multilevel TOC numbering is needed, it best to move these two CSS sections into your Ulysses HTML style of choice. 
+
+I other words, this is a HACK for demo, and you are hereby warned :)
