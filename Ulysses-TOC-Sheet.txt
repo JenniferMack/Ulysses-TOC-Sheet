@@ -56,6 +56,8 @@
 ~~   div.contents h3:before {counter-increment: h3c; content: counter(h1c) "." counter(h2c) "." counter(h3c) ". ";}
 ~~   div.contents h4:before {counter-increment: h4c; content: counter(h1c) "." counter(h2c) "." counter(h3c) "." counter(h4c) ". ";}
 ~~ </style>
+%% CSS copied from: http://philarcher.org/diary/2013/headingnumbers,
+%% and slightly modified. 
 %% 
 ~~<!-- Java script for making TOC "on the fly": -->
 ~~<script type="text/javascript" language="javascript">
