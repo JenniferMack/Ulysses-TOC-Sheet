@@ -11,7 +11,7 @@
 %% but then make sure that the <div id="contents"> tag is inserted above first heading to be included in the TOC.
 %% Works with any of Ulysses HTML-styles and preview, but not with Rich Text-styles.
 %% 
-%% if you want heading links without decoration (underlined), uncomment following section:
+%% if you want heading links without decoration (underlined), add following section to your UL style sheet of choice:
 ~~ <!--
 ~~ <style type="text/css">
 ~~ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a  {
@@ -29,8 +29,9 @@
 %% 
 %% Added style for multi level numbering of <ol><li> tags
 %% Also CSS for auto numbering of headings corresponding to TOC
-%% This can just be commented out if you dont want nubered headings
-%% This could be added to your CSS-style sheet, but more flexibel if inline like this:
+%%
+%% If you want multilevel numbering of TOC, this can be added to your CSS-style sheet.
+%% It is included here for quick demo purpose only, and will not work with all browsers:
 ~~ <!-- CSS for auto multi level TOC numbering : -->
 ~~ <style type="text/css">
 ~~ /* hide original list counter */
@@ -41,9 +42,11 @@
 ~~ ol > li:first-child {counter-reset: item;} /* reset counter */
 ~~ ol > li {counter-increment: item;} /* increment counter */
 ~~ ol > li:before {content:counters(item, ".") ". "; font-weight:bold;} /* print counter */
+~~ /* http://stackoverflow.com/questions/7791071 */
 ~~</style>
-%% [stackoverflow.com]
 %% 
+%% If you want nubered headings, this can be added to your CSS-style sheet.
+%% It is included here for quick demo purpose only, and will not work with all browsers:
 ~~ <!-- CSS for auto numbering of headings: -->
 ~~ <!-- If not wanted, just MOVE this comment's closing tag after: </style>-->
 ~~ <style type="text/css">
