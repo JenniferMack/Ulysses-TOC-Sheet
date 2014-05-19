@@ -48,7 +48,6 @@
 %% If you want nubered headings, this can be added to your CSS-style sheet.
 %% It is included here for quick demo purpose only, and will not work with all browsers:
 ~~ <!-- CSS for auto numbering of headings: -->
-~~ <!-- If not wanted, just MOVE this comment's closing tag after: </style>-->
 ~~ <style type="text/css">
 ~~ div.contents {counter-reset: h1c;}
 ~~   h1 {counter-reset: h2c;}
