@@ -1,8 +1,8 @@
+%% Paste this complete text into empty Ulysses sheet, and place it after front matter,
+%% or as first sheet, if no main heading or introduction.
 ### Table of Contents
-%% Paste this text into empty Ulysses sheet, and place it after front matter,
-%% or as first sheet, if no main heading or introduction
-~~<div id="toc" class="toc">
-~~</div>
+~~ <div id="toc" class="toc">
+~~ </div>
 ----
 ~~ <div class="contents" id="contents">
 %% 
