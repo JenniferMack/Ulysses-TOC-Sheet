@@ -35,15 +35,15 @@
 ~~ <!-- CSS for auto multi level TOC numbering : -->
 ~~ <style type="text/css">
 ~~ /* hide original list counter */
-~~ol li {display:block;}
+~~ ol li {display:block;}
 ~~ /* OR */
 ~~ /* ol {list-style:none;}  */
 ~~ 
 ~~ ol > li:first-child {counter-reset: item;} /* reset counter */
 ~~ ol > li {counter-increment: item;} /* increment counter */
 ~~ ol > li:before {content:counters(item, ".") ". "; font-weight:bold;} /* print counter */
-~~ /* http://stackoverflow.com/questions/7791071 */
-~~</style>
+~~ /* From: http://stackoverflow.com/questions/7791071 */
+~~ </style>
 %% 
 %% If you want nubered headings, this can be added to your CSS-style sheet.
 %% It is included here for quick demo purpose only, and will not work with all browsers:
@@ -60,14 +60,14 @@
 ~~   div.contents h2:before {counter-increment: h2c; content: counter(h1c) "." counter(h2c) ". ";}
 ~~   div.contents h3:before {counter-increment: h3c; content: counter(h1c) "." counter(h2c) "." counter(h3c) ". ";}
 ~~   div.contents h4:before {counter-increment: h4c; content: counter(h1c) "." counter(h2c) "." counter(h3c) "." counter(h4c) ". ";}
+~~ 
+~~   /* From: http://philarcher.org/diary/2013/headingnumbers, and slightly modified. */
 ~~ </style>
-%% CSS copied from: http://philarcher.org/diary/2013/headingnumbers,
-%% and slightly modified. 
 %% 
-~~<!-- Java script for making TOC "on the fly": -->
-~~<script type="text/javascript" language="javascript">
-~~<!-- // JavaScript-code in XML comment block, to parse as valid XML. 
-~~        // </div>-tag is then also needed at the end of last sheet! 
+%% JavaScript generating TOC "on the fly":
+~~ <script type="text/javascript" language="javascript">
+~~ <!-- // JavaScript-code in XML comment block, to parse as valid XML. 
+~~      // </div>-tag is then also needed at the end of last sheet! 
 ~~ window.onload = function () {
 ~~     var maxLevel = 4;  // Max Header level in TOC
 ~~     var listType = "ol";  // Use: "ul" or "ol" only! (ul = bullets, ol = numbers)
