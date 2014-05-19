@@ -10,7 +10,7 @@ Also uses CSS auto-numbering of Headings, matching the TOC numbering.
 Place it as first sheet, or just after front-matter-sheet/main-title-sheet of your project.
 
 It can also be inserted anywhere else in the document structure,  
-but then make sure that the <div id="contents"> tag is inserted above first heading to be included in the TOC.
+but then make sure that the `<div id="contents">` tag is inserted above first heading to be included in the TOC.
 
 Works with any of Ulysses HTML-styles and preview, but not with Rich Text-styles.
 
