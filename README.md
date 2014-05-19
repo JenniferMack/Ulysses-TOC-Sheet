@@ -14,6 +14,6 @@ but then make sure that the <div id="contents"> tag is inserted above first head
 
 Works with any of Ulysses HTML-styles and preview, but not with Rich Text-styles.
 
-Paste the complete text from **_Ulysses-TOC-Sheet.txt_** into an empty Ulysses sheet, and place it after front matter sheet, or as first sheet, if no main heading or introduction.
+Copy and Paste the complete text from **_Ulysses-TOC-Sheet.txt_** into an empty Ulysses sheet, and place it after front matter sheet, or as first sheet if so desired.
 
 Feel free to fix and improve :)
