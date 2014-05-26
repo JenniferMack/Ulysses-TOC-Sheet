@@ -20,6 +20,6 @@ Feel free to fix and improve :)
 
 ### Disclaimer
 
-`<style>` sections (used here for Headnings- and multilevel TOC-numbering) are not strictly allowed in `<body>` section. It seems to work in Safari, Chrome and Firefox, but not in IE. So if heading numbers and multilevel TOC numbering is needed, it best to move these two CSS sections into your Ulysses HTML style of choice. 
+`<style>` sections (used here for Headnings- and multilevel TOC-numbering) are not strictly allowed in `<body>` section. It seems to work in newer versions of Safari, Chrome and Firefox, and IE. But not in some older verions of IE or if Compability-mode is activated. So if heading numbers and multilevel TOC numbering is needed, turn of Compability-mode in IE. 
+(If that does not work, try to move these two CSS sections into your Ulysses HTML style of choice)
 
-I other words, this is a HACK for demo, and you are hereby warned :)
