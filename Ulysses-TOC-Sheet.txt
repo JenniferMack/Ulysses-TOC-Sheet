@@ -41,7 +41,7 @@
 ~~ 
 ~~ ol > li:first-child {counter-reset: item;} /* reset counter */
 ~~ ol > li {counter-increment: item;} /* increment counter */
-~~ ol > li:before {content:counters(item, ".") ". "; font-weight:bold;} /* print counter */
+~~ ol > li:before {content:counters(item, ".") ". "; font-weight:normal;} /* print counter */
 ~~ /* From: http://stackoverflow.com/questions/7791071 */
 ~~ </style>
 %% 
