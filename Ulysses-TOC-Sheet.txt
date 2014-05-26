@@ -12,7 +12,9 @@
 %% but then make sure that the <div id="contents"> tag is inserted above first heading to be included in the TOC.
 %% Works with any of Ulysses HTML-styles and preview, but not with Rich Text-styles.
 %% 
-%% if you want heading links without decoration (underlined), add following section to your UL style sheet of choice:
+%% If you want heading links without decoration (underlined), 
+%% add following section to your UL style sheet of choice,
+%% or just uncomment this block: (remove <!--  and -->)
 ~~ <!--
 ~~ <style type="text/css">
 ~~ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a  {
