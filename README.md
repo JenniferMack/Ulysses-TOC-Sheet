@@ -9,12 +9,12 @@ Also uses CSS auto-numbering of Headings, matching the TOC numbering.
 
 Place it as first sheet, or just after front-matter-sheet/main-title-sheet of your project.
 
-It can also be inserted anywhere else in the document structure,  
-but then make sure that the `<div id="contents">` tag is inserted above first heading to be included in the TOC.
+Works with any Ulysses HTML-styles and preview, but not with PDF or Rich Text.
 
-**Works with any Ulysses HTML-styles and preview**, but not with PDF or Rich Text.
+Copy and Paste the complete text from **_Ulysses-TOC-Sheet.txt_** into an empty Ulysses sheet, and place it after a main title / front matter sheet, or as first sheet if so desired.
 
-Copy and Paste the complete text from **_Ulysses-TOC-Sheet.txt_** into an empty Ulysses sheet, and place it after front matter sheet, or as first sheet if so desired.
+(It can also be inserted anywhere else in the document structure,  
+but then make sure that the `<div id="contents">` tag is inserted above first heading to be included in the TOC.)
 
 Feel free to fix and improve :)
 
